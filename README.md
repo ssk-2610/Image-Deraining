@@ -5,9 +5,9 @@
 
 ## Setting up project
 
-1. Download the file 
+1. Download the following dependencies using pip
   ```sh
-   !pip install yacs joblib natsort h5py tqdm 
+   pip install yacs joblib natsort h5py tqdm 
    ```
 ## Training
 - Download the Datasets
@@ -38,7 +38,4 @@ python test.py
 
 
 
-#### To reproduce PSNR/SSIM scores 
-```
-evaluate_PSNR_SSIM.m 
-```
+
